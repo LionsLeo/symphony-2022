@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,500');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+::-webkit-scrollbar{
+    overflow: hidden;
+    width: 2px;
+}
+body
+{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.container
+{
+    padding: 20px;
+}
+.first
+{
+    padding: 10px;
+    text-align: center;
+}
+.first p
+{
+    font-size: 50px;
+    font-weight: 500;
+}
+.second
+{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.second h1
+{
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.second p
+{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 50%;
+}
+.third
+{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.third h1
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+.third h2
+{
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.third ol
+{
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    list-style-position: inside;
+    opacity: 50%;
+}
+.third p
+{
+    font-size: 50px;
+    font-weight: 500;
+}
+.logo
+{
+    padding: 10px;
+    text-align: center;
+}
+.logo img
+{
+    width: 350px;
+}
